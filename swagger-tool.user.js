@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         swagger-tool
-// @version      1.0
+// @version      1.0.1
 // @description  swagger复制、展开
 // @author       zhaoyifeng
 // @include      */swagger-ui.html
@@ -39,9 +39,10 @@ function createCopy() {
 					text: "复制成功 " + content,
 					backgroundColor: "rgb(15, 52, 67)",
 					className: "info",
+					position: 'center',
 				}).showToast();
 			})
-		}, 100)
+		}, 1000)
 	})
 }
 
